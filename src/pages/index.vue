@@ -63,8 +63,8 @@
 </template>
 
 <script>
-import Logo from '~/shared/components/Logo.vue'
-import VuetifyLogo from '~/shared/components/VuetifyLogo.vue'
+import Logo from '@/shared/components/Logo.vue'
+import VuetifyLogo from '@/shared/components/VuetifyLogo.vue'
 
 export default {
   components: {

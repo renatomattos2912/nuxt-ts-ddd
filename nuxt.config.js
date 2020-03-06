@@ -4,13 +4,13 @@ export default {
   mode: 'spa',
   srcDir: 'src/',
   dir: {
-    pages: 'pages/',
-    components: 'shared/components/',
-    assets: 'shared/assets/',
-    layouts: 'shared/layouts/',
-    middleware: 'shared/middleware/',
-    static: 'shared/static/',
-    store: 'shared/store/'
+    pages: 'pages',
+    components: 'shared/components',
+    assets: 'shared/assets',
+    layouts: 'shared/layouts',
+    middleware: 'shared/middleware',
+    static: 'shared/static',
+    store: 'shared/store'
   },
   /*
    ** Headers of the page

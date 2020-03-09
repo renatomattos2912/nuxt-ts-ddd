@@ -52,5 +52,6 @@
 
   // Others
   "terminal.integrated.shell.osx": "zsh",
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
+  "vetur.useWorkspaceDependencies": true
 }

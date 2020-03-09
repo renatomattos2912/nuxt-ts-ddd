@@ -7,6 +7,7 @@ export default {
   dir: {
     pages: 'pages',
     components: 'shared/components',
+    plugins: 'shared/plugins',
     assets: 'shared/assets',
     layouts: 'shared/layouts',
     middleware: 'shared/middleware',
@@ -41,7 +42,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/shared/plugins/composition-api'],
   /*
    ** Nuxt.js dev-modules
    */

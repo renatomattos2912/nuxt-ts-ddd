@@ -18,17 +18,13 @@
     "**/.nuxt": true,
     "**/dist": true
   },
-  // --------------------
 
   // Files
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
   // Editor
-  "editor.tabSize": 2,
-
   "editor.formatOnSave": false,
-  "editor.fontSize": 13,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": true

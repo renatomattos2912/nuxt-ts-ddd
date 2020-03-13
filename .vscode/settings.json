@@ -1,6 +1,5 @@
 {
-  // Global
-  // TODO
+  // Search
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -22,36 +21,19 @@
   // --------------------
 
   // Files
-  "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
   // Editor
   "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
+
   "editor.formatOnSave": false,
   "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.renderWhitespace": "all",
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.rulers": [80],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  // Per type
-  "[jsonc]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
 
   // Others
-  "terminal.integrated.shell.osx": "zsh",
-  "javascript.suggestionActions.enabled": false,
   "vetur.useWorkspaceDependencies": true
 }

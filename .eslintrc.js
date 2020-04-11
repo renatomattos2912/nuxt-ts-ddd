@@ -4,11 +4,8 @@ module.exports = {
     browser: true,
     node: true
   },
-  parserOptions: {
-    // parser: 'babel-eslint'
-  },
+  parserOptions: {},
   extends: [
-    '@nuxtjs',
     '@nuxtjs/eslint-config-typescript',
     'prettier',
     'prettier/vue',

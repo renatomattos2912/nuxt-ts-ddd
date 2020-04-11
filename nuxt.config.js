@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors';
-require('dotenv').config();
+require('dotenv').config({ path: './config/.env' });
 
 export default {
   mode: 'spa',

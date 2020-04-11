@@ -12,7 +12,7 @@ export default {
     layouts: 'shared/layouts',
     middleware: 'shared/middleware',
     static: 'shared/static',
-    store: 'shared/store'
+    store: 'shared/store',
   },
   /*
    ** Headers of the page
@@ -26,10 +26,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -50,7 +50,7 @@ export default {
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
   ],
   /*
    ** Nuxt.js modules
@@ -59,7 +59,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    ['@nuxtjs/dotenv', { path: './config' }]
+    ['@nuxtjs/dotenv', { path: './config' }],
   ],
   /*
    ** Axios module configuration
@@ -82,15 +82,15 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
+          success: colors.green.accent3,
+        },
+      },
+    },
   },
   typescript: {
     typeCheck: {
-      eslint: true
-    }
+      eslint: true,
+    },
   },
   /*
    ** Build configuration
@@ -100,5 +100,5 @@ export default {
      ** You can extend webpack config here
      */
     // extend(config, ctx) {}
-  }
+  },
 };

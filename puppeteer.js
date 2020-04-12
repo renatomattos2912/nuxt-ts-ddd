@@ -16,7 +16,7 @@ const puppeteer = require('puppeteer');
     const pages = await browser.pages();
     const page = pages[0];
 
-    await page.setBypassCSP(true);
+    // await page.setBypassCSP(true);
     await page.goto(URL, {
       waitUntil: 'networkidle2',
     });

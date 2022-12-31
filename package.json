@@ -33,14 +33,14 @@
     "@nuxtjs/axios": "^5.9.7",
     "@nuxtjs/dotenv": "^1.4.1",
     "@vue/composition-api": "^0.5.0",
-    "nuxt": "^2.12.2"
+    "nuxt": "^3.0.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.6.5",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^1.0.2",
-    "@nuxtjs/eslint-module": "^1.1.0",
+    "@nuxtjs/eslint-module": "^1.2.0",
     "@nuxtjs/stylelint-module": "^3.2.2",
-    "@nuxtjs/vuetify": "^1.11.0",
+    "@nuxtjs/vuetify": "^1.12.3",
     "@vue/test-utils": "^1.0.0-beta.33",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
@@ -56,6 +56,6 @@
     "puppeteer": "^2.1.1",
     "stylelint": "^13.3.2",
     "ts-jest": "^25.3.1",
-    "vue-jest": "^3.0.5"
+    "vue-jest": "^4.0.1"
   }
 }
